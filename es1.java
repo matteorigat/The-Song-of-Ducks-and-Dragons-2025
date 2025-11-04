@@ -53,11 +53,11 @@ public class Main{
             }
             if(s.charAt(0) == 'L'){
                 index -= val;
-                if(index < 0) index = names.length + index;
+                if(index < 0) index += names.length;
 
             }
             else{
-                index = (index + val)%(names.length);
+                index = (index + val) % names.length;
             }
         }
 
@@ -71,7 +71,6 @@ public class Main{
 
 // part 3
 public class Main{
-
 
     public static void main(String[] args){
 
@@ -91,10 +90,10 @@ public class Main{
             }
             if(s.charAt(0) == 'L'){
                 index = (index - val) % names.length;
-                if(index < 0) index = names.length + index;
+                if(index < 0) index += names.length;
             }
             else{
-                index = (index + val)%(names.length);
+                index = (index + val) % names.length;
             }
 
             names[0] = names[index];
