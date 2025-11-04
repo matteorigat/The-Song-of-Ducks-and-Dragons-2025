@@ -1,4 +1,7 @@
 
+// https://everybody.codes/event/2025/quests/1
+
+
 // part 1
 public class Main{
 
@@ -23,7 +26,7 @@ public class Main{
             }
         }
 
-        System.out.println(names[index]);
+        System.out.println(names[index]); // Erasfelix
 
     }
 }
@@ -58,7 +61,7 @@ public class Main{
             }
         }
 
-        System.out.println(names[index]);
+        System.out.println(names[index]);  // Glynnisis
 
     }
 }
@@ -100,7 +103,7 @@ public class Main{
             index = 0;
         }
 
-        System.out.println(names[index]);
+        System.out.println(names[index]);  // Selkzor
 
     }
 }
