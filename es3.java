@@ -87,6 +87,6 @@ public class Main {
         for(int i: map.values())
             if(i > max) max = i;
 
-        System.out.print(max);
+        System.out.print(max); // 2932
     }
 }
